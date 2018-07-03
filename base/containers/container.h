@@ -16,66 +16,63 @@ namespace Compile_Time {
 		void constexpr inline operator =(const value_type new_value);
 
 		template<class type>
-		constexpr inline operator u8<type>();
+		constexpr inline operator u8<type>() const;
 
 		template<class type>
-		constexpr inline operator u16<type>();
+		constexpr inline operator u16<type>() const;
 
 		template<class type>
-		constexpr inline operator u32<type>();
+		constexpr inline operator u32<type>() const;
 
 		template<class type>
-		constexpr inline operator u64<type>();
+		constexpr inline operator u64<type>() const;
 
 		template<class type>
-		constexpr inline operator s8<type>();
+		constexpr inline operator s8<type>() const;
 
 		template<class type>
-		constexpr inline operator s16<type>();
+		constexpr inline operator s16<type>() const;
 
 		template<class type>
-		constexpr inline operator s32<type>();
+		constexpr inline operator s32<type>() const;
 
 		template<class type>
-		constexpr inline operator s64<type>();
+		constexpr inline operator s64<type>() const;
 
 		template<class type>
-		constexpr inline operator Bit<type>();
+		constexpr inline operator Bit<type>() const;
 
-		template<class type>
-		constexpr inline operator uint8_t();
+		constexpr inline operator uint8_t() const;
 
-		constexpr inline operator uint16_t();
+		constexpr inline operator uint16_t() const;
 
-		constexpr inline operator uint32_t();
+		constexpr inline operator uint32_t() const;
 
-		constexpr inline operator uint64_t();
+		constexpr inline operator uint64_t() const;
 
-		constexpr inline operator int8_t();
+		constexpr inline operator int8_t() const;
 
-		constexpr inline operator int16_t();
+		constexpr inline operator int16_t() const;
 
-		constexpr inline operator int32_t();
+		constexpr inline operator int32_t() const;
 
-		constexpr inline operator int64_t();
+		constexpr inline operator int64_t() const;
 
-		constexpr inline operator char();
+		constexpr inline operator char() const;
 
-		constexpr inline operator wchar_t();
+		constexpr inline operator wchar_t() const;
 
-		constexpr inline operator char16_t();
+		constexpr inline operator char16_t() const;
 
-		constexpr inline operator char32_t();
+		constexpr inline operator char32_t() const;
 
-		constexpr inline operator uchar();
+		constexpr inline operator bool() const;
 
-		constexpr inline operator bool();
+		constexpr inline operator float() const;
 
-		constexpr inline operator float();
+		constexpr inline operator double() const;
 
-		constexpr inline operator double();
-
-		constexpr inline operator decimal();
+		constexpr inline operator decimal() const;
 	};
 }
 
