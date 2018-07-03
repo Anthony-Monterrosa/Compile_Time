@@ -35,5 +35,7 @@ out.txt
 *.slo
 *.smod
 *.so
+*.sublime-project
+*.sublime-workspace
 Thumbs.db
 vgcore*

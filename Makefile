@@ -7,7 +7,7 @@ EXEC_DIRS = ./specs/
 SRC_DIRS =
 
 #directories containing headers that need to be installed
-HEADER_DIRS =
+HEADER_DIRS = .
 HEADER_CP_DIRS =
 HEADER_FILES +=
 #Header install subdirectory (ie, in /usr/include: defaults to $(SYS_NAME))
